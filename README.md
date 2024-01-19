@@ -22,7 +22,7 @@ Funcionalidades:
 3. Editar produtos
 4. Sair da lojinha.
 
-Vídeos do app funcionando clique [aqui](https://drive.google.com/file/d/1EcVd_J4KHVHzulYEGX9duNf0ZPC7a1y7/view?usp=sharing)
+Vídeos do app funcionando clique [aqui](https://drive.google.com/file/d/1SjSIc3uqDEuE_9K5n3M3jkGoFqX3e8F1/view?usp=sharing)
    
 ### 🚧 Ajustes e melhorias
 
