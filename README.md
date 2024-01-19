@@ -1,11 +1,5 @@
 # Garantir a Qualidade do App Android Lojinha 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
-
 ![Alt ou título da imagem](https://snapstack.cz/wp-content/uploads/2020/07/ToolsForBuildingApps_636x300-op.png)
 
 > Esse projeto tem como objetivo garantir a qualidade de uma aplicaçao mobile Android a partir de casos de testes manuais e automatizados.
@@ -18,7 +12,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 2. - [x] Validar as requisições do APP a uma API REST
 3. - [x] Seguir o guia de testes Exploratorios
 4. - [x] Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
-5. - [ ] Automatizar o caso de teste criado
+5. - [x] Automatizar o caso de teste criado
 6. - [ ] Criar casos de testes que cubram as todas regras de negócio 
 7. - [ ] Automatizar todos os casos de testes 
 
@@ -43,7 +37,8 @@ O app consiste em:
 1. Tela de login
 2. Tela de lista de produtos
 3. Tela de adição de produtos
-4. Tela de adição de componentes a um produto.  
+4. Tela de adição de componentes a um produto.
+   
 <img src="/images/loginTela.png" height="300"> | <img src="/images/ListadeProdutosTela.png" height="300"> | <img src="/images/AdicionarProdutoTela.png" height="300"> | <img src="/images/AdicionarComponenteTela.png" height="300">
 
 Funcionalidades:
@@ -52,7 +47,7 @@ Funcionalidades:
 3. Editar produtos
 4. Sair da lojinha.
 
-## 🛠️ Construído com
+## 🛠️ Construído com:
 
 * [Intellij](https://www.jetbrains.com/pt-br/idea/) - Ferramenta para escrita do código dos testes automatizados
 * [Maven](https://maven.apache.org/) - Gerente de Dependência
@@ -81,12 +76,12 @@ A partir desse guia e estudos eu segui alguns pontos chaves para os testes explo
 
 #### 📈Testes relacionados as regras de negócios
 - [x] Executar as regras de negócios
-- [ ] Continuidade dos fluxos
-- [ ] Listagem de muitos registros
-- [ ] Mascaras, habilitação/desabilitação e tipagem dos campos
-- [ ] Variação de rede
-- [ ] Integração com API
-- [ ] Perda de foco da Aplicação
+- [x] Continuidade dos fluxos
+- [x] Listagem de muitos registros
+- [x] Mascaras, habilitação/desabilitação e tipagem dos campos
+- [x] Variação de rede
+- [x] Integração com API
+- [x] Perda de foco da Aplicação
 
 ### 🕵🏻‍♂️Validar as requisições do APP a uma API REST
 - Requisitos:
@@ -97,13 +92,10 @@ A partir desse guia e estudos eu segui alguns pontos chaves para os testes explo
   1. Abra o James Proxy e pegue o a porta
   2. Abra o terminal e pegue o ip local
   3. No Genymotion: Configure o proxy no dispositivo
-  4. Interaja com o App e visualize as requições no James Proxy
+  4. Interaja com o App e visualize as requições no James Proxy  
 
-  <img src="/images/APIRequests.png" height="300">
+  <img src="/images/APIRequests1.png" height="300">
   
-- Análise de Resultados
-  Quando o login é feito é mandado o 3 requisições do tipo GET iguais, poderiamos conversar com o time de desenvolvimento para diminuir para uma, diminuindo o tempo de login do usuario que se pensamos em uma escala de milhares usuarios poderia fazer a diferença.
-
 ### 🛠️Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
 Dentre as regras de negócio está que:
 "Só é possível adicionar um produto que o valor esteja entre R$0,01 e R$7.000,00"
@@ -146,21 +138,32 @@ Foi utilizada as bibliotecas do JUnit e do Appium junto com Selenium Webdriver. 
 Veja o código completo [aqui](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/src/test/java/modulos/produto/ProdutoTest.java#L37C16-L56C16 
 ).
 
-### 🔩 Analise dos Resultados:
-#### Requisições de API
-* Quando o login é feito é mandado o 3 requisições do tipo GET iguais, poderiamos conversar com o time de desenvolvimento para diminuir para uma, diminuindo o tempo de login do usuario que se pensamos em uma escala de milhares usuarios poderia fazer a diferença.
-
-####
+## 🔩 Analise dos Resultados:
+### Requisições de API
+```
+Quando o login é feito é mandado o 3 requisições do tipo GET iguais, poderiamos conversar com o time de desenvolvimento para diminuir para uma e
+diminuindo o tempo de login do usuario que se pensamos em uma escala de milhares usuarios poderia fazer a diferença.
+```
+### Testes Exploratorios
+* Perda de foco da Aplicação
 
 ```
-Dar exemplos
+Passos:
+Dado a tela de adiçao de produtos
+E o usuario está preenchendo o nome
+Quando uma notificação chega
+E o usuario responde a notificação
+Então volta para continuar a ação no app
+
+Resultado experado:
+O fluxo do app continue funcionando.
+
+Resultado Atual:
+O app fecha e a tela inicial do device é exibida.
 ```
 
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
+### Testes Automatizados
 ```
-Dar exemplos
+1/1 Teste Passando
 ```
 
