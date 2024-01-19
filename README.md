@@ -14,20 +14,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 4. - [x] Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
 5. - [x] Automatizar o caso de teste criado
 6. - [ ] Criar casos de testes que cubram as todas regras de negócio 
-7. - [ ] Automatizar todos os casos de testes 
-
-<!-- . ## 💻 Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
-
-  
-#  Desafio de testar uma aplicaçao Android
-
-Esse projeto tem como objetivo garantir a qualidade de uma aplicaçao mobile Android a partir de casos de testes manuais e automatizados.-->
+7. - [ ] Automatizar todos os casos de testes
+8. - [ ] Tradução do projeto para o inglês  
 
 ## 🚀 Começando
 
