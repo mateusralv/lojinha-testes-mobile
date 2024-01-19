@@ -24,13 +24,12 @@ Funcionalidades:
 
 Vídeos do app funcionando clique [aqui](https://drive.google.com/file/d/1SjSIc3uqDEuE_9K5n3M3jkGoFqX3e8F1/view?usp=sharing)
    
-### 🚧 Ajustes e melhorias
+## 🚧 Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 1. - [x] Testes de Regressão Visual
-2. - [x] Validar as requisições do APP a uma API REST
-3. - [x] Seguir o guia de testes Exploratorios
+3. - [x] Testes Exploratorios e validar as requisições do APP a uma API REST
 4. - [x] Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
 5. - [x] Automatizar o caso de teste criado
 6. - [ ] Criar casos de testes que cubram as todas regras de negócio 
@@ -53,7 +52,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 
 ## ⚙️ Executando os testes
-### 🗺️ Seguir o guia de testes Exploratorios
+### 🗺️ Testes Exploratorios
   Existe um guia oficial do Android que mostra os principais critérios de qualidades para um app Android. Veja [aqui](https://developer.android.com/training/testing/fundamentals?hl=pt-br).  
 A partir desse guia e estudos eu segui alguns pontos chaves para os testes exploratorios:  
 
@@ -73,7 +72,7 @@ A partir desse guia e estudos eu segui alguns pontos chaves para os testes explo
 - [x] Integração com API
 - [x] Perda de foco da Aplicação
 
-### 🕵🏻‍♂️Validar as requisições do APP a uma API REST
+#### 🕵🏻‍♂️Validar as requisições do APP a uma API REST
 - Requisitos:
   James Proxy
   Genymotion
