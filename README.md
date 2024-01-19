@@ -43,8 +43,14 @@ O app consiste em:
 1. Tela de login
 2. Tela de lista de produtos
 3. Tela de adição de produtos
-4. Tela de adição de componentes a um produto.
-<img src="../lojinha-testes-mobile/images/loginTela.png" height="100">
+4. Tela de adição de componentes a um produto.  
+<img src="/images/loginTela.png" height="300"> | <img src="/images/ListadeProdutosTela.png" height="300"> | <img src="/images/AdicionarProdutoTela.png" height="300"> | <img src="/images/AdicionarComponenteTela.png" height="300">
+
+Funcionalidades:
+1. Adicionar novos produtos com ou sem componentes
+2. Excluir produtos
+3. Editar produtos
+4. Sair da lojinha.
 
 ## 🛠️ Construído com
 
@@ -63,8 +69,9 @@ O app consiste em:
 
 ## ⚙️ Executando os testes
 ### 🗺️ Seguir o guia de testes Exploratorios
-  Existe um guia oficial do Android que mostra os principais critérios de qualidades para um app Android. Veja: 
-A partir desse guia e estudos eu segui alguns pontos chaves para os testes exploratorios:
+  Existe um guia oficial do Android que mostra os principais critérios de qualidades para um app Android. Veja [aqui](https://developer.android.com/training/testing/fundamentals?hl=pt-br).  
+A partir desse guia e estudos eu segui alguns pontos chaves para os testes exploratorios:  
+
 #### 👾Testes relacionados ao sistema Android
   - Rotation: Rotacione o dispositivo em varias telas
   - Permission: O que acontece se as permissões não forem dadas ao app?
@@ -92,7 +99,7 @@ A partir desse guia e estudos eu segui alguns pontos chaves para os testes explo
   3. No Genymotion: Configure o proxy no dispositivo
   4. Interaja com o App e visualize as requições no James Proxy
 
-     [video]
+  <img src="/images/APIRequests.png" height="300">
   
 - Análise de Resultados
   Quando o login é feito é mandado o 3 requisições do tipo GET iguais, poderiamos conversar com o time de desenvolvimento para diminuir para uma, diminuindo o tempo de login do usuario que se pensamos em uma escala de milhares usuarios poderia fazer a diferença.
@@ -111,10 +118,11 @@ Então baseando no padrão **Gherkin** temos:
 **E** preenche com nome e valor acima de R$7.000,00  
 **Então** é exibido um alerta de erro.  
 
-[video]
+<img src="/images/MensagemDeErro.png" height="300">
 
 ### 👨‍💻 Automatizar o caso de teste criado
-Foi utiliz
+Foi utilizada as bibliotecas do JUnit e do Appium junto com Selenium Webdriver. O padrão para a documentação utilizado foi o #PageObjects 
+
 ~~~java
 @DisplayName("Validacao do valor de produto não permitido")
     @Test
@@ -135,10 +143,14 @@ Foi utiliz
         Assertions.assertEquals("O Valor do Prodrudo deve estar entre R$0,01 e R$7.000,00",mensagemApresentada);
     }
 ~~~
+Veja o código completo [aqui](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/src/test/java/modulos/produto/ProdutoTest.java#L37C16-L56C16 
+).
 
-### 🔩 Analise os testes de ponta a ponta
+### 🔩 Analise dos Resultados:
+#### Requisições de API
+* Quando o login é feito é mandado o 3 requisições do tipo GET iguais, poderiamos conversar com o time de desenvolvimento para diminuir para uma, diminuindo o tempo de login do usuario que se pensamos em uma escala de milhares usuarios poderia fazer a diferença.
 
-Explique que eles verificam esses testes e porquê.
+####
 
 ```
 Dar exemplos
@@ -152,39 +164,3 @@ Explique que eles verificam esses testes e porquê.
 Dar exemplos
 ```
 
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-
----
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
