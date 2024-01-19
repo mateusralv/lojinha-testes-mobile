@@ -86,17 +86,20 @@ A partir desse guia e estudos eu segui alguns pontos chaves para os testes explo
   
 ### 🛠️Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
 Dentre as regras de negócio está que:
+```
 "Só é possível adicionar um produto que o valor esteja entre R$0,01 e R$7.000,00"
-
+```
 Então baseando no padrão **Gherkin** temos:  
+```
+Dado o app lojinha instalado no device  
+E o usuario acessa a pagina de login  
+E preenche com suas credenciais validas  
+E aciona a opção de realizar login  
+Quando aciona o botão "+" para adicionar um produto  
+E preenche com nome e valor acima de R$7.000,00  
+Então é exibido um alerta de erro.  
+```
 
-**Dado** o app lojinha instalado no device  
-**E** o usuario acessa a pagina de login  
-**E** preenche com suas credenciais validas  
-**E** aciona a opção de realizar login  
-**Quando** aciona o botão "+" para adicionar um produto  
-**E** preenche com nome e valor acima de R$7.000,00  
-**Então** é exibido um alerta de erro.  
 
 <img src="/images/MensagemDeErro.png" height="300">
 
