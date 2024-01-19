@@ -4,19 +4,6 @@
 
 > Esse projeto tem como objetivo garantir a qualidade de uma aplicaçao mobile Android a partir de casos de testes manuais e automatizados.
 
-### 🚧 Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-1. - [x] Testes de Regressão Visual
-2. - [x] Validar as requisições do APP a uma API REST
-3. - [x] Seguir o guia de testes Exploratorios
-4. - [x] Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
-5. - [x] Automatizar o caso de teste criado
-6. - [ ] Criar casos de testes que cubram as todas regras de negócio 
-7. - [ ] Automatizar todos os casos de testes
-8. - [ ] Tradução do projeto para o inglês  
-
 ## 🚀 Começando
 
 Projeto de testes voltado para o App Lojinha desenvolvido no [Programa de Testes e Qualidade de Software Julio de Lima](https://mentoria.juliodelima.com.br/). 
@@ -34,6 +21,21 @@ Funcionalidades:
 2. Excluir produtos
 3. Editar produtos
 4. Sair da lojinha.
+
+Vídeos do app funcionando clique [aqui](https://drive.google.com/file/d/1EcVd_J4KHVHzulYEGX9duNf0ZPC7a1y7/view?usp=sharing)
+   
+### 🚧 Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+1. - [x] Testes de Regressão Visual
+2. - [x] Validar as requisições do APP a uma API REST
+3. - [x] Seguir o guia de testes Exploratorios
+4. - [x] Criar o primeiro caso de teste que sera automatizado baseado em uma regra de negócio
+5. - [x] Automatizar o caso de teste criado
+6. - [ ] Criar casos de testes que cubram as todas regras de negócio 
+7. - [ ] Automatizar todos os casos de testes
+8. - [ ] Tradução do projeto para o inglês  
 
 ## 🛠️ Construído com:
 
