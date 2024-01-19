@@ -1,0 +1,1 @@
+# lojinha-testes-mobile
