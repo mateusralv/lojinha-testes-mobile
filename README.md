@@ -48,7 +48,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 * [James PROXY](https://github.com/james-proxy/james) - Monitorar requisições do app a uma API Rest
 * [Page Object Pattern](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/) - Padrão utilizado para descrever e documentar o fluxo dos testes.
 * [Gherkin Reference](https://cucumber.io/docs/gherkin/) - Padrão utilizado para escrita dos casos de testes.
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
 
 
 ## ⚙️ Executando os testes
@@ -124,7 +123,7 @@ Foi utilizada as bibliotecas do JUnit e do Appium junto com Selenium Webdriver. 
                 .obterMensagemDeErro();
 
         //Validar a mensagem de erro
-        Assertions.assertEquals("O Valor do Prodrudo deve estar entre R$0,01 e R$7.000,00",mensagemApresentada);
+        Assertions.assertEquals("O Valor do Produto deve estar entre R$0,01 e R$7.000,00",mensagemApresentada);
     }
 ~~~
 Veja o código completo [aqui](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/src/test/java/modulos/produto/ProdutoTest.java#L37C16-L56C16 
