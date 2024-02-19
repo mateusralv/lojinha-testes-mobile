@@ -11,8 +11,8 @@ Test project for the App Loja developed in [Julio de Lima Software Quality and T
 
 The app has:
 1. Login screen
-2. Screen of products list
-3. Adding screen of products
+2. Screen for products list
+3. Screen for adding products 
 4. Screen for adding components to a product.
    
 <img src="/images/loginTela.png" height="300"> | <img src="/images/ListadeProdutosTela.png" height="300"> | <img src="/images/AdicionarProdutoTela.png" height="300"> | <img src="/images/AdicionarComponenteTela.png" height="300">
