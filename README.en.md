@@ -104,7 +104,7 @@ Then an error alert is displayed.
 
 <img src="/images/MensagemDeErro.png" height="300">
 
-### 👨‍💻 Automate the created test case
+### 👨‍💻 Test Automated
 JUnit and Appium libraries were used together with Selenium Webdriver. The rule for the documentation used was #PageObjects 
 
 ~~~java
@@ -130,7 +130,7 @@ JUnit and Appium libraries were used together with Selenium Webdriver. The rule 
 See the full code [here](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/src/test/java/modulos/produto/ProdutoTest.java#L37C16-L56C16 
 ).
 
-## 🔩 Analysis of Results:
+## 🔩 Results:
 ### API requests
 ```
 When the login is done is sent the 3 requests of type GET equal, we could talk to the development team to decrease to one and
