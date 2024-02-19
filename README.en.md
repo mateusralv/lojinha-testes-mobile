@@ -103,7 +103,7 @@ Then an error alert is displayed.
 
 <img src="/images/MensagemDeErro.png" height="300">
 
-### 👨‍💻 Test Automated
+### 👨‍💻 Automated Test
 JUnit and Appium libraries were used together with Selenium Webdriver. The rule for the documentation used was #PageObjects 
 
 ~~~java
@@ -151,6 +151,9 @@ The app flow continues to work.
 
 Current Result:
 The app closes and the device’s home screen is displayed.
+
+Evidence:
+[You can use a picture or video here]
 ```
 
 ### Automated Tests
