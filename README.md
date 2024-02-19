@@ -1,8 +1,10 @@
+> [English Version](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/README.en.md)
 # Garantir a Qualidade do App Android Lojinha 
 
 ![Alt ou título da imagem](https://snapstack.cz/wp-content/uploads/2020/07/ToolsForBuildingApps_636x300-op.png)
 
 > Esse projeto tem como objetivo garantir a qualidade de uma aplicaçao mobile Android a partir de casos de testes manuais e automatizados.
+
 
 ## 🚀 Começando
 
