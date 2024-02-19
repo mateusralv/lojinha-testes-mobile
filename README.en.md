@@ -74,8 +74,7 @@ From this guide and studies I followed some key points for the exploratory tests
 
 #### 🕵🏻‍♂️Validate APP requests to a REST API
 - Requirements:
-  James Proxy
-  Genymotion
+  James Proxy and Genymotion
   
 - Steps:
   1. Open the James Proxy and take the port
