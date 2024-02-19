@@ -1,5 +1,5 @@
 > [Portuguese version](https://github.com/mateusralv/lojinha-testes-mobile/blob/main/README.md)
-# Case Study: Quality in the Android Loja App
+# Case: Quality in the Android Loja App
 
 ![Alt ou título da imagem](https://snapstack.cz/wp-content/uploads/2020/07/ToolsForBuildingApps_636x300-op.png)
 
