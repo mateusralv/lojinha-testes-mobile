@@ -119,7 +119,7 @@ Foi utilizada as bibliotecas do JUnit e do Appium junto com Selenium Webdriver. 
                 .submeterLogin()
                 .abrirTelaAdicaoProduto()
                 .preencherNomeProduto("Iphone")
-                .preencherValorProduto("7000")
+                .preencherValorProduto("7001")
                 .preencherCoresProduto("Preto,Branco")
                 .submissaoComErro()
                 .obterMensagemDeErro();
