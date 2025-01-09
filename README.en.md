@@ -117,7 +117,7 @@ JUnit and Appium libraries were used together with Selenium Webdriver. The rule 
                 .submeterLogin()
                 .abrirTelaAdicaoProduto()
                 .preencherNomeProduto("Iphone")
-                .preencherValorProduto("7000")
+                .preencherValorProduto("7001")
                 .preencherCoresProduto("Preto,Branco")
                 .submissaoComErro()
                 .obterMensagemDeErro();
